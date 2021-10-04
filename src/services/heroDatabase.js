@@ -13,3 +13,10 @@ export const fetchHeroById = (id) => {
         .then((res) => res.json());
 };
 
+export const postHero = (newHero) => {
+    return fetch(`${process.env.URL}/}`, {
+        method: 'POST',
+        body: JSON.stringify(newHero),
+        headers: { 'Access-Control-Allow-Origin': '*', 'Content-Type': 'application/json' }
+    }).then((res) => res.json());
+};
