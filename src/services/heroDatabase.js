@@ -7,3 +7,9 @@ export const fetchHeros = () => {
         }
     }).then((res) => res.json());
 };
+
+export const fetchHeroById = (id) => {
+    return fetch(`${process.env.URL}/${id}`, { method: 'GET' })
+        .then((res) => res.json());
+};
+
