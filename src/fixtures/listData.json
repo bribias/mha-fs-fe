@@ -1,0 +1,25 @@
+[{
+"id": "Akira_Iwako",
+"name": "Akira Iwako",
+"alias": "Stone Villain",
+"quirk": "Unnamed Hardening Quirk",
+"images": [
+"https://storage.googleapis.com/my-hero-academia-api/Akira_Iwako-1.jpg",
+"https://storage.googleapis.com/my-hero-academia-api/Akira_Iwako.jpg"
+],
+"epithet": null,
+"ages": null,
+"family": null
+},
+{
+"id": "All_For_One",
+"name": "All For One",
+"alias": "Master",
+"quirk": "All For One, Various stolen Quirks",
+"images": [
+"https://storage.googleapis.com/my-hero-academia-api/All_For_One-1.jpg",
+"https://storage.googleapis.com/my-hero-academia-api/All_For_One-2.jpg",
+"https://storage.googleapis.com/my-hero-academia-api/All_For_One-3.jpg",
+"https://storage.googleapis.com/my-hero-academia-api/All_For_One.jpg"
+]
+}]
