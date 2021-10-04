@@ -3,7 +3,7 @@ import HeroList from './HeroList';
 import { Link } from 'react-router-dom';
 import { useLoading, useSetLoading, useHeroes, useSetHeroes } from '../../hooks/HeroProvider';
 
-const ListOfCharacters = () => {
+const ListOfHeroes = () => {
     const loading = useLoading();
     const setLoading = useSetLoading();
     const heroes = useHeroes();
@@ -32,3 +32,5 @@ const ListOfCharacters = () => {
         </ul>
     );
 };
+
+export default ListOfHeroes;

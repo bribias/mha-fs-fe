@@ -8,8 +8,6 @@ const HeroList = ({ name, image, quirk }) => (
     }}>
         <img src={image} alt={name} height={'200px'} />
         <h2>{name}</h2>
-        <p><i>{alias}</i></p>
-        <p>{quirk}</p>
     </button>
 );
 
