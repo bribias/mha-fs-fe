@@ -32,3 +32,8 @@ export const updateHero = (id, newHero) => {
             }
         }).then((res) => res.json());
 };
+
+export const deleteHeroById = (id) => {
+    return fetch(`${process.env.URL}/${id}`, { method: 'DELETE' })
+    .then((res) => res.json());
+};
