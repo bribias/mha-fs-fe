@@ -31,7 +31,7 @@ export const useSetLoading = () => {
 };
 
 export const useHeroes = () => {
-    const { heroes } = useContext(HeroesContext);
+    const { heroes } = useContext(HeroContext);
     return heroes;
 };
 

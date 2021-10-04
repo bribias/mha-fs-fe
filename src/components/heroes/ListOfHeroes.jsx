@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import HeroList from './HeroList';
 import { Link } from 'react-router-dom';
 import { useLoading, useSetLoading, useHeroes, useSetHeroes } from '../../hooks/HeroProvider';
+import fetchHeroes from '../../services/heroDatabase.js';
 
 const ListOfHeroes = () => {
     const loading = useLoading();
@@ -10,7 +11,7 @@ const ListOfHeroes = () => {
     const setHeroes = useSetHeroes();
 
     useEffect(() => {
-        fetchHeros()
+        fetchHeroes()
             .then((heroesArr) => setHeroes(heroesArr))
             .then(() => setLoading(false));
     }, []);

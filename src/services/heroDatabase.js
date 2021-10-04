@@ -1,4 +1,4 @@
-export const fetchHeros = () => {
+export const fetchHeroes = () => {
     return fetch('http://localhost:7890/api/v1/heroes', {
         method: 'GET',
         headers: {
